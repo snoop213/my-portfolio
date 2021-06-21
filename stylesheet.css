@@ -1,3 +1,10 @@
-body{
-  background:skyblue;
-}
+.title{
+  font-size:50px;
+  text-align:center;
+  background:white;
+  width:50%;
+  height:100px;
+  margin:0 auto;
+  line-height:100px;
+  border:20px solid chocolate;
+ }
