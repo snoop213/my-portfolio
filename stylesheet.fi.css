@@ -1,6 +1,9 @@
 body p{
   font-weight:bold;
 }
+tr{
+  font-weight:bold;
+}
 a{
   font-weight: bold;
   font-size: 26px;
