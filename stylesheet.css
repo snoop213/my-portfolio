@@ -1,6 +1,21 @@
-/* body html{
-  height:100%;
-} */
+
+body{
+  background-image:url(DSCF9033.jpg.webp);
+  background-color: rgba(255, 255, 255, 0.3);
+  background-blend-mode:lighten ;
+  background-size: cover;
+  
+}
+a{
+  font-weight: bold;
+  font-size: 26px;
+  cursor: pointer;
+  text-decoration: none;
+ }
+
+body p{
+  font-weight:bold;
+}
 .sback{
   background-image:url(paper_00105.jpg);
 }
@@ -11,6 +26,14 @@
 .rback{
   background-image:url(wood-texture_00031.jpg);
   
+}
+#fi{
+  text-align: center;
+ 
+}
+#fi a{
+  font-size: 30px;
+ 
 }
 .title{
   font-size:50px;
