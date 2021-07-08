@@ -9,7 +9,5 @@ window.onload = function() {
      bat.play();  
  });
 
-
-  
-  });
-};
+});
+}
