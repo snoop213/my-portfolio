@@ -3,9 +3,9 @@
 window.onload = function() {
 
   let nomura = document.getElementById("nomura");
-  let btn = document.getElementById("btn");
+  let btn1 = document.getElementById("btn1");
   let nomuraList = nomura.style;
-  btn.onclick = function(){
+  btn1.onclick = function(){
     if( nomuraList.display === "block" ) {
       nomuraList.display = "none";
     } else {
