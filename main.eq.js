@@ -156,7 +156,16 @@ const mondai = function(){
       if(total === 20){
         fan.play();
         window.alert('お疲れさまでした全問正解です。これであなたも野球狂の仲間入りです。');
-
+                let kaitou = document.getElementById("kaitou");
+        let btn1 = document.getElementById("btn1");
+        let kaitouList = kaitou.style;
+        btn1.onclick = function(){
+        if( kaitouList.display === "block" ) {
+          kaitouList.display = "none";
+        } else {
+          kaitouList.display = "block";
+        }
+  };
       }else{
         window.alert('お疲れさまでした' + Qlength + '問中' + total + '問' + '正解です');
 
