@@ -49,8 +49,25 @@ p{
   padding: 8px;
   margin: auto;
   box-shadow:0 4px 0 rgb(184, 182, 182);
+  font-weight: bold;
+}
+#btn1{
+  background:gray;
+  width: 200px;
+  text-align:center;
+  border-radius:4px;
+  cursor:pointer;
+  user-select:none;
+  padding: 8px;
+  margin: auto;
+  margin-top: 20px;
+  box-shadow:0 4px 0 rgb(184, 182, 182);
 }
 #start:active{
+  margin-top:12px;
+  box-shadow:none;
+}
+#btn1:active{
   margin-top:12px;
   box-shadow:none;
 }
@@ -69,3 +86,12 @@ a{
   cursor: pointer;
   text-decoration: none;
  }
+ .seiseki {
+  font-weight: bold;
+  margin:auto;
+  border: 5px double;
+  display: none;
+  position: relative;
+  text-align: center;
+  
+}
